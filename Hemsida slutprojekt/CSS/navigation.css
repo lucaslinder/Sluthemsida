@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+}
+#logga {
+    width: 65px;
+    height: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(19, 34, 87);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(19, 34, 150);
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: white;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body {
+        background-color: white;
+        font-size: 20px;
+    }
+}
